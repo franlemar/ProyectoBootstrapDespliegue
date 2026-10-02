@@ -1,0 +1,50 @@
+body {
+            background-color: #f7f4ec; /* Beige pastel muy clarito */
+            color: #333333;
+        }
+        .hero-section {
+            background-color: #8b7355; /* Marrón suave/tierra */
+            color: #f7f4ec;
+        }
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid #d2c4b3;
+        }
+        .section-title {
+            color: #5c4a3d; /* Marrón oscuro para los títulos */
+            border-bottom: 2px solid #5c4a3d;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 30px;
+        }
+        /* Sobrescribiendo colores de Bootstrap para armonizar con el marrón */
+        .text-custom {
+            color: #8b7355 ;
+        }
+        .btn-custom {
+            background-color: #5c4a3d;
+            border-color: #5c4a3d;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #4a3b31;
+            border-color: #4a3b31;
+            color: white;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        /* Estilo para los logos del stack */
+        .tech-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+        .tech-logo:hover {
+            transform: scale(1.1);
+        }
